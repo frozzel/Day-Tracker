@@ -4,7 +4,7 @@
 ///////// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date
 var rootEl = $('.currentday')
 var stampEl = $('.timeStamp')
-
+var get5amEl = document.getElementById('5AM')
 ///test 2//
 var timenow = new Date();
 var timeSplit = timenow.toString().split('2022')[0];
@@ -16,13 +16,19 @@ console.log(timeSplit)
 stampEl.text(timeSplit+ ('')+ getLocaltime())
 rootEl.append(timeSplit)
 
-/////// Time //////////
+/////// Time ////////// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleTimeString
 function getLocaltime(){
     return new Date().toLocaleTimeString();
 }
 console.log(getLocaltime())
 ////// ^^^^^^^^^^^ fire now how to use it //// 
 
-if (getLocaltime() > "10:00:00 PM" && getLocaltime() < "12:00:00 PM"){
+if (getLocaltime() > "10:00:00 PM" && getLocaltime() < "11:00:00 PM"){
+    get5amEl.className = "future col-8"
     console.log("hell ya")
 }
+//// 04#6 ref for calls /////^^^^ pickup tomarrow/////
+
+
+
+
