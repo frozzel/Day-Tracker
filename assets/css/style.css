@@ -11,7 +11,7 @@ textarea{
   color: #000000;
   border-left: 1px solid black;
   padding: 10px;
-  font-size: 15px;
+  
 }
 
 .jumbotron {
@@ -41,8 +41,7 @@ textarea{
   background-color: #ffffff;
   color: #000000;
   border-top: 1px dashed #000000;
-  text-align: center;
-  padding: 5%;
+  
 }
 
 .past {
@@ -74,7 +73,7 @@ textarea{
   align-items: center;
 }
 
-.saveBtn:hover {
+.saveBtn i:hover {
   font-size: 20px;
   transition: all .3s ease-in-out;
 }

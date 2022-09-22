@@ -9,7 +9,7 @@ $backgroundEl= $('#8AM, #9AM, #10AM, #11AM, #12PM, #1PM, #2PM, #3PM, #4PM, #5PM'
 ///test 2//
 var timenow = new Date();
 var timeSplit = timenow.toString().split('2022')[0];
-
+var TextArea = document.getElementById('8AM')
 console.log(timenow)
 console.log(timeSplit)
 
@@ -24,7 +24,7 @@ function getLocaltime(){
 console.log(getLocaltime())
 ////// ^^^^^^^^^^^ fire now how to use it //// 
 
-if (getLocaltime() > "06:00:00 PM" && getLocaltime() < "11:59:00 PM"){
+if (getLocaltime() < "06:00:00 PM" && getLocaltime() < "11:59:00 PM"){
     $($backgroundEl).addClass('past col-8') 
     console.log("hell ya")
 } else if (getLocaltime() > "12:00:00 AM" && getLocaltime() < "07:00:00 AM" ){
@@ -33,16 +33,15 @@ if (getLocaltime() > "06:00:00 PM" && getLocaltime() < "11:59:00 PM"){
 }
 //// 04#6 ref for calls /////^^^^ pickup tomarrow/////
 
-if (getLocaltime()< "09:00:00 AM"){
-    get5amEl.className = 'past col-8'
+// if (getLocaltime()< "09:00:00 AM"){
+//     get5amEl.className = 'past col-8'
 
-} else if (getLocaltime()> "08:00:00 AM"){
-    // get5amEl.className = 'future col-8';
-    $($backgroundEl).addClass('future col-8') 
-    console.log($backgroundEl)
+// } else if (getLocaltime()> "08:00:00 AM"){
+//     // get5amEl.className = 'future col-8';
+//     $($backgroundEl).addClass('future col-8') 
+//     console.log($backgroundEl)
 
-}
-
+// }
 
 
 
