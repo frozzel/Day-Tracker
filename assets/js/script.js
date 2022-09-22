@@ -13,5 +13,16 @@ console.log(timenow)
 console.log(timeSplit)
 
 
-stampEl.text(timeSplit)
+stampEl.text(timeSplit+ ('')+ getLocaltime())
 rootEl.append(timeSplit)
+
+/////// Time //////////
+function getLocaltime(){
+    return new Date().toLocaleTimeString();
+}
+console.log(getLocaltime())
+////// ^^^^^^^^^^^ fire now how to use it //// 
+
+if (getLocaltime() > "10:00:00 PM" && getLocaltime() < "12:00:00 PM"){
+    console.log("hell ya")
+}
