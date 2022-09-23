@@ -24,7 +24,7 @@ Down Load enjoy
 simple calendar application that allows a user to save events for each hour of the day!
  Site: https://frozzel.github.io/Day-Tracker/
 
-    ![Screen Shot](./assets/images/Shot.png)
+    ![Screen Shot](../assets/images/Shot.png)
  
 
 ## Credits
