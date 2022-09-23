@@ -6,7 +6,7 @@
 Work Day Scheduler allows a user to save events for each hour of the day
 
 
-## Table of Contents (Optional)
+## Table of Contents
 
 If your README is long, add a table of contents to make it easy for users to find what they need.
 
@@ -17,27 +17,40 @@ If your README is long, add a table of contents to make it easy for users to fin
 
 ## Installation
 
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+Down Load enjoy 
 
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
+simple calendar application that allows a user to save events for each hour of the day!
+ Site: https://frozzel.github.io/Day-Tracker/
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
-
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
+    ![Screen Shot](/assets/images/Shot.png)
+ 
 
 ## Credits
 
-List your collaborators, if any, with links to their GitHub profiles.
+Dennis Hickox      (https://github.com/frozzel)
 
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
 
-https://www.iconfinder.com/icons/2639912/save_icon
+ Dev Mozillia     (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date)
+
+                  (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleTimeString)
+
+Stack Over Flow       ( https://stackoverflow.com/questions/40791207/setting-and-getting-localstorage-with-jquery )
+
+                   (https://stackoverflow.com/questions/23979993/change-the-button-icon-from-bootstrap-is-not-working)
+
+ Plus2net         (https://www.plus2net.com/jquery/event-click.php)
+
+ Angularswiki (icon for floppy)       ( https://www.angularjswiki.com/fontawesome/fa-save/)
+
+ Bootstrap        (https://getbootstrap.com/docs/4.0/getting-started/introduction/)
+
+Starter Code      (https://github.com/coding-boot-camp/super-disco)
 
 ## License
 
-The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
+MIT  YOu Can Do What Ever yOu lIkE ;)
+
+
 
